@@ -4,7 +4,7 @@ go 1.21
 
 replace (
 	github.com/docker/cli => github.com/docker/cli v20.10.19+incompatible
-	github.com/docker/docker => github.com/docker/docker v20.10.19+incompatible
+	github.com/docker/docker => github.com/docker/docker v25.0.6+incompatible
 	go.infratographer.com/x => github.com/tylerauerbeck/x v0.0.0-20231025144905-3f3834cd4c50
 	oras.land/oras-go => oras.land/oras-go v1.2.2
 )
@@ -106,7 +106,7 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/prometheus/client_golang v1.17.0 // indirect
+	github.com/prometheus/client_golang v1.17.0
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
@@ -169,6 +169,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/containerd/continuity v0.4.3 // indirect
 	github.com/containerd/log v0.1.0 // indirect
+	github.com/distribution/reference v0.6.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gobwas/ws v1.0.4 // indirect

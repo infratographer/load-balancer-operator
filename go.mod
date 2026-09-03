@@ -1,6 +1,6 @@
 module go.infratographer.com/load-balancer-operator
 
-go 1.21
+go 1.26.0
 
 replace (
 	github.com/docker/cli => github.com/docker/cli v20.10.19+incompatible
@@ -106,7 +106,7 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/prometheus/client_golang v1.17.0 // indirect
+	github.com/prometheus/client_golang v1.17.0
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
@@ -125,7 +125,7 @@ require (
 	golang.org/x/crypto v0.15.0 // indirect
 	golang.org/x/net v0.18.0 // indirect
 	golang.org/x/oauth2 v0.13.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
 	golang.org/x/sys v0.14.0 // indirect
 	golang.org/x/term v0.14.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
@@ -159,7 +159,7 @@ require (
 	go.infratographer.com/ipam-api v0.0.4
 	go.infratographer.com/load-balancer-api v0.0.36-0.20231201160449-63fdc7abfac5
 	go.infratographer.com/metadata-api v0.0.4-0.20231117162412-b428513be7b6
-	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
+	golang.org/x/exp v0.0.0-20260824195058-e88cd73687aa
 	sigs.k8s.io/controller-runtime v0.14.5
 )
 
